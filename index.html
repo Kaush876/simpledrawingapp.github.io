@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Simple Drawing app</title>
+</head>
+<body>
+    <section class="container">
+        <div id="toolbar">
+            <br><br><br><br><br><br>
+            <br><br><br><br><br><br>
+            <h1>TOOLS</h1>
+            <label for="stroke">Colours</label>
+            <input id="stroke" name='stroke' type="color">
+            <label for="lineWidth">Line Width</label>
+            <input id="lineWidth" name='lineWidth' type="number" value="5">
+            <button id="clear">Clear</button>
+        </div>
+        <div class="drawing-board">
+            <canvas id="drawing-board"></canvas>
+        </div>
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>
